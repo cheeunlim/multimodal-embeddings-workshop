@@ -7,7 +7,6 @@ chunks_*/
 local_chunks/
 full_dataset_registry.pkl
 .gemini/
-
 youtube-download/
 generate_media.py
 cloud_function/
@@ -15,5 +14,7 @@ prepare_full_dataset.py
 index_assets.py
 Workshop Plan_*.md
 multimodal_search_tutorial.py
+test_multimodal_search_tutorial.ipynb
 backup.pkl
-
+originals/
+Workshop_Slides_Draft.md

@@ -58,6 +58,9 @@ This is the interactive notebook for the workshop participants.
 *   It builds the BM25 index and executes the hybrid search.
 *   It includes a "Practice Mode" that can process a small subset of data locally if the full pre-computed file is not available.
 
+> [!TIP]
+> **Optimization Idea (Fallback Strategy)**: If generating the `.pkl` file continues to fail or takes too long, we can refactor the notebook's fallback logic to use a pre-defined subset folder (e.g., using chunks/images from the `originals` folder) instead of downloading and processing full videos in the notebook. This will keep the notebook lightweight and fast.
+
 ## **How to Use**
 
 1.  **Open Notebook**: Open `multimodal_search_tutorial.ipynb`.
