@@ -1,4 +1,4 @@
-# **Multimodal Media Search with Gemini Embedding 2.0**
+# **Multimodal Media Search with Gemini Embedding 2 and Vector Search 2.0**
 
 This project demonstrates how to build a state-of-the-art multimodal retrieval system using Gemini Embedding 2 and Vertex AI Vector Search 2.0 on Google Cloud. It is designed to handle mixed media types, including images and long-form videos, enabling semantic search across different modalities.
 
@@ -15,7 +15,7 @@ Retrieve the list of files from the specified Google Cloud Storage (GCS) bucket 
 ### **Phase 3: Embedding Extraction & Video Processing**
 *   **Video Chunking**: Large video files are segmented into smaller, manageable chunks (e.g., 30 seconds) to allow for granular retrieval and precise timestamp seeking.
 *   **Parallel Processing**: Utilizes `ThreadPoolExecutor` to parallelize embedding extraction for both video chunks and images, significantly speeding up the process.
-*   **Gemini Embedding 2.0**: Leverages the latest Gemini model to generate high-dimensional dense vectors capturing the semantic essence of the media content.
+*   **Gemini Embedding 2**: Leverages the latest Gemini Embedding model to generate high-dimensional dense vectors capturing the semantic essence of the media content.
 
 ### **Phase 4: Vector Search 2.0 Setup**
 Initialize service clients for Vertex AI Vector Search 2.0 and define the data schema. This setup enables storing media embeddings along with metadata in a managed search index.
