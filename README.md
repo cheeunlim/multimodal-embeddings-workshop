@@ -1,10 +1,10 @@
 # **Gemini Embedding 2 및 Vector Search 2.0을 이용한 멀티모달 미디어 검색**
 
-이 프로젝트는 Google Cloud에서 Gemini Embedding 2와 Vertex AI Vector Search 2.0을 사용하여 최첨단 멀티모달 검색 시스템을 구축하는 방법을 보여줍니다. 이미지와 장편 동영상을 포함한 혼합 미디어 유형을 처리하도록 설계되었으며, 다양한 모달리티에 걸쳐 시맨틱 검색을 가능하게 합니다.
+이 프로젝트는 Google Cloud에서 Gemini Embedding 2와 Vertex AI Vector Search 2.0을 사용하여 최첨단 멀티모달 검색 시스템을 구축하는 방법을 보여줍니다. 이미지와 장편 동영상을 포함한 혼합 미디어 유형을 처리하도록 설계되었으며, 멀티모달 시맨틱 검색을 가능하게 합니다.
 
 ## **실습 실행을 위한 Git Clone**
 
-해당 레포지토리를 클론하거나, Colab Enterprise에 "https://github.com/cheeunlim/multimodal-embeddings-workshop/blob/main/multimodal_search.ipynb"를 import 해서 사용하세요:
+해당 레포지토리를 클론하거나, Colab Enterprise에 [실습 노트북](https://github.com/cheeunlim/multimodal-embeddings-workshop/blob/main/multimodal_search.ipynb)을 import 해서 사용하세요:
 
 ```bash
 git clone https://github.com/cheeunlim/multimodal-embeddings-workshop.git
@@ -62,7 +62,7 @@ This project demonstrates how to build a state-of-the-art multimodal retrieval s
 
 ## **Git Clone for this Practice**
 
-Clone this repository, or import "https://github.com/cheeunlim/multimodal-embeddings-workshop/blob/main/multimodal_search.ipynb" to Colab Enterprise to use it:
+Clone this repository, or import the [practice notebook file](https://github.com/cheeunlim/multimodal-embeddings-workshop/blob/main/multimodal_search.ipynb) to Colab Enterprise to use it:
 
 ```bash
 git clone https://github.com/cheeunlim/multimodal-embeddings-workshop.git
