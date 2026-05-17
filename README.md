@@ -4,7 +4,7 @@
 
 ## **실습 실행을 위한 Git Clone**
 
-클론하거나, Colab Enterprise에 "https://github.com/cheeunlim/multimodal-embeddings-workshop/blob/main/multimodal_search.ipynb"를 import 해서 사용하세요:
+해당 레포지토리를 클론하거나, Colab Enterprise에 "https://github.com/cheeunlim/multimodal-embeddings-workshop/blob/main/multimodal_search.ipynb"를 import 해서 사용하세요:
 
 ```bash
 git clone https://github.com/cheeunlim/multimodal-embeddings-workshop.git
@@ -62,7 +62,7 @@ This project demonstrates how to build a state-of-the-art multimodal retrieval s
 
 ## **Git Clone for this Practice**
 
-Clone the repository, or import "https://github.com/cheeunlim/multimodal-embeddings-workshop/blob/main/multimodal_search.ipynb" to Colab Enterprise to use it:
+Clone this repository, or import "https://github.com/cheeunlim/multimodal-embeddings-workshop/blob/main/multimodal_search.ipynb" to Colab Enterprise to use it:
 
 ```bash
 git clone https://github.com/cheeunlim/multimodal-embeddings-workshop.git
